@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -7,6 +8,7 @@ body {
     margin: 0;
     background-color: #331F19; 
 }
+
 .container {
     text-align: center;
     background-color: #CBBBA7;
@@ -17,15 +19,18 @@ body {
     max-width: 600px;
     border: 2px solid #8B7D70;
 }
+
 h1 {
     color: #331F19;
 }
+
 p {
     color: #331F19;
     font-size: 1.1em;
 }
+
 button {
-    background-color: #60041A;
+    background-color: #798252;
     color: #F4F0EA;
     padding: 10px 20px;
     border: none;
@@ -35,14 +40,18 @@ button {
     transition: background-color 0.3s ease;
     margin-top: 10px;
 }
+
 button:hover {
-    background-color: #A34743;
+    background-color: #CCD595;
+    color: #504e4d;
 }
+
 ul {
     list-style: none;
     padding: 0;
     margin-top: 20px;
 }
+
 ul li {
     background-color: #F4F0EA;
     color: #331F19;
@@ -66,7 +75,49 @@ input[type="text"] {
     outline: none;
     transition: border-color 0.3s ease;
 }
+
 input[type="text"]:focus {
     border-color: #60041A;
     box-shadow: inset 0 2px 4px rgba(96, 4, 26, 0.3);
+}
+
+button.remover {
+    background-color: #A34743;
+    color: #F4F0EA;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.6em;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button.remover:hover {
+    background-color: #60041A;
+}
+
+button.editar {
+    background-color: #331F19;
+    color: #F4F0EA;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.6em;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button.editar:hover {
+    background-color: #744d41;
+}
+
+.botao_lista {
+    background-color: #A34743;
+}
+
+.botao_lista:hover {
+    background-color: #60041A;
+    color: #F4F0EA;
 }
