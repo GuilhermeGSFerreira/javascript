@@ -35,6 +35,8 @@ function adicionarTarefa() {
 }
 
 function renderizarTarefas(){
+
+    //recebe o valor da UL e depois de escrever apaga sozinho
     const listaTarefas = document.getElementById("listaTarefas")
     listaTarefas.innerHTML = ""
 
